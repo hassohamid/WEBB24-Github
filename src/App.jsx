@@ -4,12 +4,14 @@ import Kalkylator from './pages/kalkylator'
 import Userlist from './pages/Userlist'
 import Todo from './pages/Todo'
 import Home from './pages/Home'
+import Nav from './components/Nav'
 
 function App() {
   
 
   return (
     <>
+    <Nav /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Kalkylator" element={<Kalkylator />} />
