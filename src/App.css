@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+/* styling för todolist */
+
+.completed {
+  color: green;
+}
+
+.todoBtns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoAddBtn {
+  margin-left: 1rem;
+}
